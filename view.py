@@ -63,5 +63,5 @@ def what_to_change():
     return input_menu()
 
 def input_find_contact():
-    find = input('Кого будем искать? ').lower
+    find = input('Кого будем искать? ').lower()
     return find

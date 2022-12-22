@@ -54,7 +54,7 @@ def find_contact():
         for item in contact:
             if who_to_find in item.lower():
                 nobody_found = False
-                print((id+1) * contact)
+                print((id+1), * contact)
         if nobody_found:
             print('Таких здесь нет')
 
